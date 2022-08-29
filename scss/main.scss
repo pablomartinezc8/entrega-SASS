@@ -5,57 +5,83 @@
 
 }
 
-.tituloUno {
-  text-align: center;
-  font-size: 32px;
-}
-header{
-nav img,
-svg {
-  width: 150px;
-  vertical-align: middle;
+header {
+
+  nav img,
+  svg {
+    width: 150px;
+    vertical-align: middle;
+  }
 }
 
-.colorNav {
+header {
+  .colorNav {
 
-  z-index: 100;
-  position: sticky;
-  top: 0;
-  color: rgb(43, 43, 69);
-  /* background-image: radial-gradient(#04353b 40%, #00d4ff); */
-  background-image: radial-gradient(#04353bab 40%, #00d4ffc2);
-  /* background-color: rgb(25, 25, 61); */
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    color: rgb(43, 43, 69);
+    /* background-image: radial-gradient(#04353b 40%, #00d4ff); */
+    background-image: radial-gradient(#04353bab 40%, #00d4ffc2);
+    /* background-color: rgb(25, 25, 61); */
+  }
 }
-}
-.primcipalS{
-.imagenesCards {
-  margin: 20px;
-}
+
+header {
+  .colorBoton {
+    color: black;
+    background-color: rgb(156, 159, 162);
+    border-color: rgb(241, 249, 0);
+  }
 }
 
 body {
   color: #f7f8f9;
   background-color: black;
+
+  .tituloUno {
+    text-align: center;
+    font-size: 32px;
+  }
 }
 
-h2 {
-  // background-image: linear-gradient(to left, #0a172a,rgb(172 188 200));
-  margin: 20px 5px;
-  text-align: center;
+body {
+  .imagenesCards {
+    margin: 20px;
+  }
 }
 
-.colorBoton {
-  color: black;
-  background-color: rgb(156, 159, 162);
-  border-color: rgb(241, 249, 0);
+body {
+  .seccionDos {
+    .tituloIndex {
+      border: solid rgb(19, 18, 14) 1px;
+      border-radius: 90px;
+      background-image: radial-gradient(#04353b 40%, #00d4ff);
+      margin: 20px 5px;
+      text-align: center;
+    }
+  }
+}
+body{
+  .imagenGrande {
+    border-radius: 17px;
+    width: 100vw;
+    margin: 2px;
+  }
 }
 
+footer{
 .tituloFooter {
   text-align: center;
 }
-
-h1 {
-  text-align: center;
+}
+footer{
+  .sectionFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
 }
 
 .img-fluid {
@@ -72,11 +98,10 @@ h1 {
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
-}
-
-.sectionImg img {
-  width: 200px;
-  height: 200px;
+  img{
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .card-body {
@@ -92,22 +117,12 @@ h1 {
   justify-content: center;
 }
 
-.imagenGrande {
-  border-radius: 17px;
-  width: 100vw;
-  margin: 2px;
-}
 
 .imgCarousel2 {
   width: 50vw;
   height: 200px;
 }
 
-.tituloIndex {
-  border: solid rgb(19, 18, 14) 1px;
-  border-radius: 90px;
-  background-image: radial-gradient(#04353b 40%, #00d4ff);
-}
 
 .seccionDos {
   border-radius: 43px;
@@ -136,11 +151,6 @@ h1 {
   text-align: center;
 }
 
-.sectionFooter {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
 
 .listaMercados {
   margin: 0px 40px;
