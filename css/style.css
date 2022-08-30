@@ -22,3 +22,5 @@ header {
   .main-index .card {
     max-width: 350px;
     margin: 0 auto; }
+    .main-index .card h2 {
+      font-family: sans-serif; }
