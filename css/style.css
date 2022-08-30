@@ -1,5 +1,5 @@
 header {
   background-image: linear-gradient(to left, red blue); }
-  header nav div img {
+  header nav div img, header nav div svg {
     width: 150px;
     vertical-align: middle; }
