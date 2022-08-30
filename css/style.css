@@ -1,5 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 header {
-  background-image: linear-gradient(to left, red blue); }
-  header nav div img, header nav div svg {
-    width: 150px;
-    vertical-align: middle; }
+  background-color: orangered; }
+  header ul {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    flex-direction: row;
+    justify-content: space-evenly; }
+    header ul li {
+      list-style: none;
+      background-image: radial-gradient(#04353bab 40%, #00d4ffc2); }
+
+.main-index {
+  text-align: center;
+  min-width: 50vh;
+  background-image: radial-gradient(#04353bab 40%, #00d4ffc2); }
+  .main-index .card {
+    max-width: 350px;
+    margin: 0 auto; }
