@@ -23,13 +23,12 @@ header {
         list-style: none;
         background-color: #23ff0f; }
 
-.texto h1 {
+.texto {
   text-align: center;
   min-width: 50vh; }
-
-.texto p {
-  font-size: 25px;
-  font-family: cursive; }
+  .texto p {
+    font-size: 25px;
+    font-family: cursive; }
 
 .main-index {
   text-align: center;
