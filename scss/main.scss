@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 header{
-    background-color: orangered;
+    background-color:#122429;
+    nav{
+        display: flex;
     ul{ 
             display: flex;
             margin-top: 0;
@@ -13,8 +15,9 @@ header{
             justify-content: space-evenly;
     li{
         list-style: none;
-        background-image: radial-gradient(#04353bab 40%, #00d4ffc2);
+        background-color: #23ff0f;
     }
+}
 }
 }
 .main-index{
