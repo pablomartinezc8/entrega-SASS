@@ -5,8 +5,15 @@
 }
 header{
     background-color:#122429;
+    img{
+        width: 150px;
+        height: 150px;
+    }
     nav{
         display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    
     ul{ 
             display: flex;
             margin-top: 0;
@@ -14,11 +21,23 @@ header{
             flex-direction: row;
             justify-content: space-evenly;
     li{
+        margin: 5px;
         list-style: none;
         background-color: #23ff0f;
     }
 }
 }
+}
+.texto{
+    h1{
+        text-align: center;
+        min-width: 50vh;
+    }
+    p{
+        font-size: 25px;
+        font-family: cursive;
+    }
+    
 }
 .main-index{
     text-align: center;
