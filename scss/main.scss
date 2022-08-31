@@ -26,6 +26,10 @@ header{
     margin: 0 auto;
     h2{
         font-family:sans-serif ;
+        &:hover{
+            background-color: black;
+            color: blueviolet;
+        }
     }
 }
 }
